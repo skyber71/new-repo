@@ -1,0 +1,7 @@
+replicaCount: 1
+image:
+  repository: mongo
+  tag: latest
+  pullPolicy: IfNotPresent
+service:
+  port: 27017
